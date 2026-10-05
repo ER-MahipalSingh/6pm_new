@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .banner-main {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+      }
+      .baner-container {
+        width: 100%;
+        height: 100%;
+        background-image: url("https://s.yimg.com/ny/api/res/1.2/MJeO7q0yonH6wJT0WYi7Hg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/what_hi_fi_263/61af50351f7ff09a4cb4d03422bbe4cb");
+        background-size: cover;
+        filter: blur(1px);
+      }
+      nav {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+      }
+      nav h2{
+        font-size: 2.6rem;
+        color: red;
+      }
+      .baner-text {
+        /* width: 100%;
+        height: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="banner-main">
+      <section class="baner-container"></section>
+      <nav>
+        <h2>NETFLIX</h2>
+        <div>
+          <select>
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+          </select>
+          <button>Sign Out</button>
+        </div>
+      </nav>
+      <div class="baner-text">
+        <h1>Unlimited movies, <br />shows, and more</h1>
+      </div>
+    </main>
+  </body>
+</html>
